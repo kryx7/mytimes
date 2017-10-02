@@ -1,0 +1,64 @@
+header{
+  font-family: verdana;
+  font-size: 14px;
+  position: fixed;
+  display:flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  background-color: white;
+}
+.logo{
+  color:mediumaquamarine;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.logo span {
+  padding-left: 15px;
+}
+nav span{
+  display:inline-block;
+  padding: 20px 10px;
+}
+nav{
+  padding-right: 40px;
+}
+.main{
+  border: 1px solid black;
+  display: flex;
+  padding: 80px 40px;
+
+}
+.big{
+  border: 1px solid black;
+  width: 630px;
+  display: flex;
+  flex-wrap:wrap;
+}
+.mother span{
+  font-size: 40px;
+  color:white;
+  font-family: Georgia;
+}
+.mother-img{
+  background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/img-story-main.png");
+  display: flex;
+}
+.earth{
+  background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/img-story-2-fall.png");
+}
+.medium{
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+}
+.small{
+  border: 1px solid black;
+  width: 240px;
+  display: flex;
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+}
