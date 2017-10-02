@@ -64,6 +64,22 @@ nav{
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.story{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+
+}
+.burger{
+  height: 250px;
+
+}
+.orca{
+  height: 250px;
+
 }
 .medium{
   border: 1px solid black;
@@ -84,4 +100,5 @@ p{
 }
 h2{
   display:flex;
+  
 }
