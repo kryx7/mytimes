@@ -35,6 +35,9 @@ nav{
   width: 630px;
   display: flex;
   flex-wrap:wrap;
+  margin-right: 32px;
+  flex-direction: column;
+
 }
 .mother span{
   font-size: 40px;
@@ -47,18 +50,38 @@ nav{
 }
 .earth{
   background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/img-story-2-fall.png");
+  color:white;
+  font-size: 17px;
+  width: 100%;
+}
+.research{
+  background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/hipster.png");
+  color:white;
+  font-size: 17px;
+  width: 100%;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 .medium{
   border: 1px solid black;
   width: 300px;
   display: flex;
+  margin-right: 32px;
+  flex-direction: column;
 }
 .small{
   border: 1px solid black;
   width: 240px;
   display: flex;
+  flex-direction: column;
 }
 p{
   font-family: Georgia;
   font-size: 17px;
+}
+h2{
+  display:flex;
 }
