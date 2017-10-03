@@ -34,7 +34,6 @@ h2{
   font-size: 30px;
 }
 .main{
-  border: 1px solid black;
   display: flex;
   padding: 80px 40px;
 }
@@ -136,4 +135,36 @@ h2{
   height: 30px;
   padding-top: 10px;
   padding-left: 10px;
+}
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+  width:100%;
+
+
+}
+.title{
+  font-family: Georgia;
+  font-size: 16px;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+}
+.copyright p{
+  font-family: Verdana;
+  font-size: 12px;
+  align-self: flex-end;
+  display:block;
+
+}
+.footer span{
+  font-family: Verdana;
+  font-size: 12px;
 }
