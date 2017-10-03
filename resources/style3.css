@@ -7,7 +7,6 @@ header{
   border-bottom: 1px solid black;
   justify-content: space-between;
   background-color: white;
-
 }
 .logo{
   color:mediumaquamarine;
@@ -25,13 +24,22 @@ nav span{
 nav{
   padding-right: 40px;
 }
+p{
+  font-family: Georgia;
+  font-size: 17px;
+}
+h2{
+  display:flex;
+  font-family: Georgia;
+  font-size: 30px;
+}
 .main{
   border: 1px solid black;
   display: flex;
   padding: 80px 40px;
 }
 .big{
-
+  padding-top: 30px;
   width: 630px;
   display: flex;
   flex-wrap:wrap;
@@ -42,6 +50,7 @@ nav{
   font-size: 40px;
   color:white;
   font-family: Georgia;
+  padding: 80px 20px;
 }
 .mother-img{
   background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/img-story-main.png");
@@ -54,6 +63,7 @@ nav{
   font-size: 30px;
   height: 300px;
   text-align: center;
+  margin-top: 20px;
 }
 .research{
   background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/hipster.png");
@@ -61,6 +71,8 @@ nav{
   font-size: 30px;
   height: 300px;
   text-align: center;
+  margin-top: 20px;
+
 }
 .stories{
   display: flex;
@@ -79,22 +91,25 @@ nav{
   height: 250px;
 }
 .medium{
-  border: 1px solid black;
   width: 300px;
   display: flex;
   margin-right: 32px;
   flex-direction: column;
+
+}
+.cat{
+  background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/cat.png");
+  color:white;
+  height: 300px;
+  text-align: center;
+}
+.cat p{
+  font-family: Georgia;
+  font-size: 30px;
 }
 .small{
   border: 1px solid black;
   width: 240px;
   display: flex;
   flex-direction: column;
-}
-p{
-  font-family: Georgia;
-  font-size: 17px;
-}
-h2{
-  display:flex;
 }
