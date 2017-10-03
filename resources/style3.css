@@ -65,14 +65,23 @@ h2{
   text-align: center;
   margin-top: 20px;
 }
+.earth p{
+  font-family: Georgia;
+  font-size: 30px;
+  padding-top: 70px;
+}
 .research{
   background-image: url("C:/Users/cristina.babonea/PROJECTS/MyTimes/resources/images/hipster.png");
   color:white;
   font-size: 30px;
   height: 300px;
-  text-align: center;
   margin-top: 20px;
-
+}
+.research p{
+  font-family: Georgia;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 70px;
 }
 .stories{
   display: flex;
@@ -106,6 +115,7 @@ h2{
 .cat p{
   font-family: Georgia;
   font-size: 30px;
+  padding-top: 90px;
 }
 .small{
   border: 1px solid black;
