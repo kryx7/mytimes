@@ -36,6 +36,8 @@ h2{
 .main{
   display: flex;
   padding: 80px 40px;
+  justify-content: center;
+  align-content: center;
 }
 .big{
   padding-top: 30px;
@@ -115,6 +117,7 @@ h2{
   font-size: 30px;
   padding-top: 90px;
 }
+
 .small{
   width: 240px;
   display: flex;
@@ -141,7 +144,7 @@ footer{
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
-  font-size: 12px
+  font-size: 12px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -149,7 +152,7 @@ footer{
   width:100%;
   flex-wrap:nowrap;
 }
-.title{
+.title-times{
   font-family: Georgia;
   font-size: 16px;
   color: white;
@@ -165,13 +168,13 @@ footer{
   font-size: 12px;
 
 }
-.footer span{
+.nav footer{
   font-family: Verdana;
   font-size: 12px;
 
 }
 .footer{
   display: inline-block;
-
+  align-items: center;
 
 }
