@@ -142,7 +142,7 @@ h2{
 footer{
   display: flex;
   background-color: MediumAquamarine;
-  margin: auto;
+  
   font-family: Verdana;
   font-size: 12px;
   flex-direction: column;
@@ -151,6 +151,7 @@ footer{
   height: 325px;
   width:100%;
   flex-wrap:nowrap;
+  position:absolute;
 }
 .title-times{
   font-family: Georgia;
