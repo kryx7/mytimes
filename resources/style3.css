@@ -165,17 +165,15 @@ footer{
 }
 .copyright{
   display: flex;
-  align-self: flex-end;
+  align-self: center;
 }
 .copyright p{
   font-family: Verdana;
   font-size: 12px;
+  padding-right: 45px;
+  margin-top: 0px;
 }
 .nav footer{
   font-family: Verdana;
   font-size: 12px;
-}
-.footer{
-  display: inline-block;
-  align-items: center;
 }
